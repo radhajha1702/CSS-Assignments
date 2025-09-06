@@ -1,0 +1,35 @@
+.navbar{
+    background-color: black;
+    display:flex;
+    
+    align-items: center;
+}
+
+.logo{
+ flex-grow:1;
+}
+
+.line{
+color:white;
+flex-grow:1;
+}
+
+.grow-list{
+    color:white;
+    flex-grow:5;
+    
+    
+}
+
+.list{
+    list-style:none;
+    display:inline-flex
+}
+
+.button-small{
+    flex-grow:1;
+    background-color: rgb(108, 11, 183);
+    color:white;
+    border-radius:4px;
+    border-style: hidden;
+}
