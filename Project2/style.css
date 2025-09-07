@@ -1,9 +1,16 @@
 .navbar{
-    background-color: black;
+    background-color: black ;
+    margin:0;
+    width:100%;
+    height:auto;
     display:flex;
-    
+    justify-content:space-between;
+    padding:10px 20px;
     align-items: center;
 }
+
+
+
 
 .logo{
  flex-grow:1;
@@ -16,14 +23,22 @@ flex-grow:1;
 
 .grow-list{
     color:white;
-    flex-grow:5;
+    flex-grow:3;
+    justify-content: space-evenly;
+    
     
     
 }
 
 .list{
     list-style:none;
-    display:inline-flex
+    display:inline-flex;
+    
+}
+
+.list-item{
+    padding:0px ;
+    margin:20px;
 }
 
 .button-small{
@@ -32,4 +47,45 @@ flex-grow:1;
     color:white;
     border-radius:4px;
     border-style: hidden;
+    
+}
+
+
+
+.hero{
+    color:white;
+    font-size: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-content:center;
+    padding:70px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.hero-heading{
+    padding:70px 2px 2px ;
+    margin:2px;
+}
+
+.heroo{
+    padding:1px 2px 2px;
+    margin: 1px;
+}
+
+.hero-description{
+    font-size:19px;
+    font-family:sans-serif;
+    margin:1px 
+    
+}
+
+.button-large{
+    display:flex;
+    flex-direction: center;
+    margin:30px 40px;
+    padding:16px 40px ;
+    border-radius: 6px;
+    color:white;
+    background-color: rgb(159, 21, 239);
+    
 }
